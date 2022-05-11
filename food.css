@@ -1,0 +1,44 @@
+* {
+    text-decoration: none;
+    cursor: default;
+    background-color: blanchedalmond;
+}
+
+.banner {
+    display: flex;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 80% 5% 15%;
+}
+
+.Rubrik {
+    position: relative;
+    left: 200px;
+}
+
+.buttons {
+    text-align: end;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Line {
+    background-color: black;
+}
+
+.pictures {
+    display: grid;
+    margin-top: 30px;
+    grid-template-rows: 10% 40% 10% 40%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;    
+    min-height: 70vh;
+}
+
+.Biza {
+    height: 230px;
+    width: auto;
+}

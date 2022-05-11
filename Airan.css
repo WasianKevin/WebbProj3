@@ -1,0 +1,48 @@
+* {
+    text-decoration: none;
+    cursor: default;
+    background-color: blanchedalmond;
+}
+
+.banner {
+    display: flex;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 80% 5% 15%;
+}
+
+.Rubrik {
+    position: relative;
+    left: 180px;
+}
+
+.buttons {
+    text-align: end;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Line {
+    background-color: black;
+}
+
+
+.pictures {
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;    
+    align-items: center;
+    min-height: 70vh;
+}
+
+.airan {
+    height: 430px;
+    width: auto;
+}
